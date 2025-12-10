@@ -5,14 +5,14 @@ import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { base44 } from "@/api/base44Client";
 import { motion, AnimatePresence } from "framer-motion";
-import MenuCarousel from "./components/layout/MenuCarousel";
-import PolicyPopup from "./components/layout/PolicyPopup";
-import SearchModal from "./components/layout/SearchModal";
-import { PrivacyPolicyContent, TermsContent, CookiePolicyContent } from "./components/layout/PolicyContent";
-import SocialMetaTags from "./components/layout/SocialMetaTags";
-import AdvertisingPopup from "./components/layout/AdvertisingPopup";
-import AffiliatePopup from "./components/layout/AffiliatePopup";
-import EditorialTeamPopup from "./components/layout/EditorialTeamPopup";
+import MenuCarousel from "@/components/layout/MenuCarousel";
+import PolicyPopup from "@/components/layout/PolicyPopup";
+import SearchModal from "@/components/layout/SearchModal";
+import { PrivacyPolicyContent, TermsContent, CookiePolicyContent } from "@/components/layout/PolicyContent";
+import SocialMetaTags from "@/components/layout/SocialMetaTags";
+import AdvertisingPopup from "@/components/layout/AdvertisingPopup";
+import AffiliatePopup from "@/components/layout/AffiliatePopup";
+import EditorialTeamPopup from "@/components/layout/EditorialTeamPopup";
 
 const categories = ["Fashion", "Art", "Cuisine", "Travel", "Music", "Beauty"];
 

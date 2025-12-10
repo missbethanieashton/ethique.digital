@@ -5,11 +5,11 @@ import { createPageUrl } from "@/utils";
 import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import AdvertiserPerformance from "../components/advertiser/AdvertiserPerformance";
-import AdvertiserAds from "../components/advertiser/AdvertiserAds";
-import AdvertiserContracts from "../components/advertiser/AdvertiserContracts";
-import AdvertiserInventory from "../components/advertiser/AdvertiserInventory";
-import AdvertiserHeatmaps from "../components/advertiser/AdvertiserHeatmaps";
+import AdvertiserPerformance from "@/components/advertiser/AdvertiserPerformance";
+import AdvertiserAds from "@/components/advertiser/AdvertiserAds";
+import AdvertiserContracts from "@/components/advertiser/AdvertiserContracts";
+import AdvertiserInventory from "@/components/advertiser/AdvertiserInventory";
+import AdvertiserHeatmaps from "@/components/advertiser/AdvertiserHeatmaps";
 
 export default function AdvertiserDashboard() {
   const [advertiser, setAdvertiser] = useState(null);

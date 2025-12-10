@@ -7,15 +7,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Calendar, Clock } from "lucide-react";
 import { format } from "date-fns";
 
-import ArticlePaywall from "../components/magazine/ArticlePaywall";
-import SocialShare from "../components/magazine/SocialShare";
-import ArticleSidebar from "../components/magazine/ArticleSidebar";
-import AIRecommendations from "../components/magazine/AIRecommendations";
-import SocialMetaTags from "../components/magazine/SocialMetaTags";
-import ArticleCarousel from "../components/magazine/ArticleCarousel";
-import ArticleGallery from "../components/magazine/ArticleGallery";
-import ArticleProductCarousel from "../components/magazine/ArticleProductCarousel";
-import AnnouncementBar from "../components/magazine/AnnouncementBar";
+import ArticlePaywall from "@/components/magazine/ArticlePaywall";
+import SocialShare from "@/components/magazine/SocialShare";
+import ArticleSidebar from "@/components/magazine/ArticleSidebar";
+import AIRecommendations from "@/components/magazine/AIRecommendations";
+import SocialMetaTags from "@/components/magazine/SocialMetaTags";
+import ArticleCarousel from "@/components/magazine/ArticleCarousel";
+import ArticleGallery from "@/components/magazine/ArticleGallery";
+import ArticleProductCarousel from "@/components/magazine/ArticleProductCarousel";
+import AnnouncementBar from "@/components/magazine/AnnouncementBar";
 
 export default function Article() {
   const [searchParams] = useSearchParams();

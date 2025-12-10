@@ -6,15 +6,15 @@ import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 
-import HeroSection from "../components/home/HeroSection";
-import CategoryFilter from "../components/home/CategoryFilter";
-import CategoryThumbnails from "../components/home/CategoryThumbnails";
-import FeaturedGrid from "../components/home/FeaturedGrid";
-import LatestStoriesCarousel from "../components/home/LatestStoriesCarousel";
-import MembershipAd from "../components/home/MembershipAd";
-import CreatorCultureCarousel from "../components/home/CreatorCultureCarousel";
-import ProductAdvertisement from "../components/home/ProductAdvertisement";
-import AnnouncementBar from "../components/home/AnnouncementBar";
+import HeroSection from "@/components/home/HeroSection";
+import CategoryFilter from "@/components/home/CategoryFilter";
+import CategoryThumbnails from "@/components/home/CategoryThumbnails";
+import FeaturedGrid from "@/components/home/FeaturedGrid";
+import LatestStoriesCarousel from "@/components/home/LatestStoriesCarousel";
+import MembershipAd from "@/components/home/MembershipAd";
+import CreatorCultureCarousel from "@/components/home/CreatorCultureCarousel";
+import ProductAdvertisement from "@/components/home/ProductAdvertisement";
+import AnnouncementBar from "@/components/home/AnnouncementBar";
 
 export default function Home() {
   const [searchParams] = useSearchParams();

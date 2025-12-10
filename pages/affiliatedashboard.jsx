@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { base44 } from "@/api/base44Client";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import CarouselBuilder from "../components/affiliate/CarouselBuilder";
-import AffiliatePerformance from "../components/affiliate/AffiliatePerformance";
-import AffiliateCarousels from "../components/affiliate/AffiliateCarousels";
+import CarouselBuilder from "@/components/affiliate/CarouselBuilder";
+import AffiliatePerformance from "@/components/affiliate/AffiliatePerformance";
+import AffiliateCarousels from "@/components/affiliate/AffiliateCarousels";
 
 export default function AffiliateDashboard() {
   const [affiliate, setAffiliate] = useState(null);

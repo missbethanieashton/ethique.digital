@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryTemplate from "../components/category/CategoryTemplate";
+import CategoryTemplate from "@/components/category/CategoryTemplate";
 import { createPageUrl } from "@/utils";
 
 export default function Music() {

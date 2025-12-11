@@ -63,7 +63,7 @@ export default function ProductAdvertisement() {
             </span>
 
             <h3 className="text-3xl md:text-4xl font-light mb-6 leading-tight">
-              Luxury Timepiece Collection
+              Hand Scuplted & Engineered for Durability
             </h3>
 
             <p className="text-gray-400 leading-relaxed mb-8">
